@@ -1,0 +1,7 @@
+###
+POST http://localhost:8080/avis
+Content-Type: application/json
+
+{
+  "message":"verifions si tout marche toujour bien"
+}

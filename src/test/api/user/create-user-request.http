@@ -1,0 +1,9 @@
+###
+POST http://localhost:8080/users/inscription
+Content-Type: application/json
+
+{
+  "nom": "audrey",
+  "mdp": "audrey",
+  "email": "audrey@exemple.com"
+}

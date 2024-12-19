@@ -1,0 +1,7 @@
+###
+POST http://localhost:8080/users/activation
+Content-Type: application/json
+
+{
+  "code": "075265"
+}
