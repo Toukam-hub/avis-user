@@ -2,7 +2,7 @@ package com.chat.avisutilisateur.controller;
 
 import com.chat.avisutilisateur.resource.user.ConnexionRequest;
 import com.chat.avisutilisateur.resource.user.CreateUserRequest;
-import com.chat.avisutilisateur.security.GenerateToken;
+import com.chat.avisutilisateur.security.jwt.GenerateToken;
 import com.chat.avisutilisateur.service.user.Activation;
 import com.chat.avisutilisateur.service.user.Inscription;
 import lombok.extern.slf4j.Slf4j;

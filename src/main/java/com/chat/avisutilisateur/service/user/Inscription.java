@@ -26,6 +26,7 @@ public class Inscription {
     private final CreateValidation enregisterUneValidation;
 
     public String execute(CreateUserRequest request) {
+        log.info("user registration with : {}", request);
         if (this.utilisateurRepository.existsByEmail(request.email())) {
             throw new ResourceAlreadyExistException("Cette Email existe deja !");
         }

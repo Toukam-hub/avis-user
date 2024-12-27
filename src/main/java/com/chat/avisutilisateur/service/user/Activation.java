@@ -20,7 +20,7 @@ public class Activation {
     private final UtilisateurRepository utilisateurRepository;
 
     public void execute(Map<String, String> request) {
-        log.info("request et code {}",request);
+        log.info("request et code {}", request);
         String code = request.get("code");
         if (code == null || code.isBlank()) {
             throw new IllegalArgumentException("Le champ 'code' est obligatoire");
