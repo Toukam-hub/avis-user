@@ -3,6 +3,6 @@ POST http://localhost:8080/users/connexion
 Content-Type: application/json
 
 {
-  "email": "audrey@exemple.com",
-  "mdp": "audrey"
+  "mdp": "franck",
+  "email": "franck@exemple.com"
 }

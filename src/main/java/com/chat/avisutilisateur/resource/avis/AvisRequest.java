@@ -4,7 +4,7 @@ import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;
 
 public record AvisRequest(
-        @NotBlank
+        @NotBlank(message = "Le message ne peut pas être vide.")
         @Size(min = 5)
         String message,
         String status) {

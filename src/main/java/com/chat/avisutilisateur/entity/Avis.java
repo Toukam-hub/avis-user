@@ -3,6 +3,8 @@ package com.chat.avisutilisateur.entity;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.time.Instant;
+
 @Getter
 @Setter
 @Entity
@@ -16,4 +18,8 @@ public class Avis {
     private int id;
     private String message;
     private String status;
+    @Column(name = "date_de_creation")
+    private Instant dateCreation;
+    @Column(name = "date_de_modification")
+    private Instant dateModification;
 }
